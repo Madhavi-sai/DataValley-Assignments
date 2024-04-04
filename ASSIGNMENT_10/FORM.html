@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departmental Store Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="phone">Contact Phone No:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br>
+        <label for="purchasing-days">Preferred Days of Purchasing:</label><br>
+        <input type="date" id="purchasing-days" name="purchasing-days" required><br>
+        <label for="fav-item">Favourite Item:</label>
+        <select id="fav-item" name="fav-item" required>
+            <option value="">Select an option</option>
+            <option value="item1">Item 1</option>
+            <option value="item2">Item 2</option>
+            <option value="item3">Item 3</option>
+        </select><br>
+        <label for="suggestions">Suggestions:</label><br>
+        <textarea id="suggestions" name="suggestions" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
